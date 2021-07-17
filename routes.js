@@ -1,5 +1,5 @@
 import bills from './src/bills/index';
 
 export default (app) => {
-    app.use('/bills', bills);
+    app.use('/bills', bills)
 };
