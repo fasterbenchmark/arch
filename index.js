@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect('mongodb://db:27017/orion', { useMongoCluente: true });
+mongoose.connect('mongodb://db:27017/orion', { useMongoCluente: true }); 
 
 routes(app);
 
