@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 mongoose.connect('mongodb://db:27017/orion', { useMongoCluente: true });
-// Compass : mongodb://localhost:27017/auth?readPreference=primary&appname=MongoDB%20Compass&ssl=false
 
 routes(app);
 
